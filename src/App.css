@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+.container {
+  @apply mx-auto px-8 md:px-16 lg:px-24
+}
+
+.top-container {
+  @apply text-white py-20 bg-[#00052a]
+}
+
+.Exp-div {
+  @apply px-6 pb-6 rounded-lg hover:shadow-lg shadow-[#3B6790] transform transition-transform duration-500 hover:scale-110 bg-gray-600
+}
+
+.exp-id {
+  @apply font-bold bg-clip-text text-gray-300 mt-2
+}
+
+.exp-title {
+  @apply mt-2 text-2xl font-bold text-[#EFB036] bg-clip-text text-center
+}
+
+.exp-p {
+  @apply mt-4 text-gray-300
+}
+
+.exp-a {
+  @apply mt-4 inline-block text-[#EFB036] hover:text-gray-200
+}
+
+.button-all-submit {
+  @apply mr-2 bg-[#EFB036] font-bold text-white md:inline cursor-pointer transform transition-transform duration-300 hover:scale-110 px-2 rounded-full mt-5
+}
+.about-text {
+  @apply text-4xl font-bold text-center mb-10 
+}
